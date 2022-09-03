@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    text-align: center;     
+}
+
+h1{   
+    padding: 2rem;
+}
+
+.container{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+#posts{
+    width: 350px;
+    margin-top: 15px;
+}
+
+#posts div{
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.options{
+    display: flex;
+    gap: 25px;
+}
+
+i{
+    cursor: pointer;
+}
+
+#msg{
+    color: red;
+}
